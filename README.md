@@ -41,7 +41,7 @@ Python:
 # edges is an array of int[2] where [a, b] means (node a) <-> (node b)
 # if it is a directional graph then [a, b] means (node a) -> (node b)
 nEdge = len(edges)
-adjList = [[] for _ in range(n)]  # form adj list with edges
+adjList = [[] for _ in range(nEdges)]  # form adj list with edges
 
 for edge in edges:
     adjList[edge[0]].append(edge[1])
